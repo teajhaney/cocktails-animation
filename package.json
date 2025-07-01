@@ -8,8 +8,11 @@
     "build": "vite build",
     "lint": "eslint .",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "commit": "cz",
+    "prepare": "husky install"
   },
+
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "gsap": "^3.13.0",

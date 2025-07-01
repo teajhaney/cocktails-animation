@@ -10,3 +10,14 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Automatic Commit Message Generation
+
+This project is configured with Commitizen to help generate standardized commit messages when pushing to GitHub. To use this feature:
+
+1. Stage your changes: `git add .`
+2. Run: `npm run commit` (instead of `git commit`)
+3. Follow the interactive prompts to generate your commit message
+4. Push your changes: `git push`
+
+For detailed instructions on setting up and using automatic commit message generation in WebStorm, see the [WebStorm Commit Guide](./WEBSTORM_COMMIT_GUIDE.md).
