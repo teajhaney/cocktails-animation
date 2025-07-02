@@ -120,21 +120,21 @@ const socials = [
   {
     name: 'Instagram',
     icon: '/images/insta.png',
-    url: '#',
+    url: 'https://www.instagram.com/teajhaney',
   },
   {
     name: 'X (Twitter)',
     icon: '/images/x.png',
-    url: '#',
+    url: 'https://x.com/seobinim',
   },
   {
     name: 'Facebook',
     icon: '/images/fb.png',
-    url: '#',
+    url: 'https://www.facebook.com/teajhaney',
   },
 ];
 
-const sliderLists = [
+const allCocktails = [
   {
     id: 1,
     name: 'Classic Mojito',
@@ -179,5 +179,5 @@ export {
   openingHours,
   storeInfo,
   socials,
-  sliderLists,
+  allCocktails,
 };

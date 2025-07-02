@@ -1,4 +1,4 @@
-import { About, Cocktails, Hero, NavBar, Art } from './components';
+import { About, Cocktails, Hero, NavBar, Art, Menu ,Contact} from './components';
 import { ScrollTrigger, SplitText } from 'gsap/all';
 import { CSSPlugin } from 'gsap/CSSPlugin';
 import { gsap } from 'gsap';
@@ -12,7 +12,9 @@ function App() {
         <Hero />
         <Cocktails />
         <About />
-          <Art />
+        <Art />
+        <Menu />
+          <Contact />
       </main>
     </>
   );
