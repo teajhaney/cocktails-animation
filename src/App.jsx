@@ -9,6 +9,8 @@ function App() {
       <main className="">
         <NavBar />
         <Hero />
+         <div className={'h-dvh bg-black'}></div>
+
       </main>
     </>
   );
