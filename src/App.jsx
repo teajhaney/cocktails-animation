@@ -1,9 +1,15 @@
+import { Hero, NavBar } from './components';
+import { ScrollTrigger, SplitText } from 'gsap/all';
+import { gsap } from 'gsap';
+
+gsap.registerPlugin(ScrollTrigger, SplitText);
 function App() {
   return (
     <>
-      <div className="flex-center h-screen">
-        cocktails
-      </div>
+      <main className="">
+        <NavBar />
+        <Hero />
+      </main>
     </>
   );
 }
