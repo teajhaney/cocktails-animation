@@ -1,7 +1,7 @@
 import React from 'react';
 import { navLinks } from '../constants/index.js';
 import { useGSAP } from '@gsap/react';
-import {gsap} from "gsap";
+import { gsap } from 'gsap';
 export const NavBar = () => {
   useGSAP(() => {
     const navTween = gsap.timeline({
@@ -16,7 +16,7 @@ export const NavBar = () => {
       { backgroundColor: 'transparent' },
       {
         backgroundColor: '#00000050',
-        backgroundFilter: 'blur(10px)',
+        backdropFilter: 'blur(10px)',
         duration: 1,
         ease: 'ease-in',
       }
