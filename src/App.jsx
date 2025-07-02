@@ -1,4 +1,4 @@
-import { Hero, NavBar } from './components';
+import { Cocktails, Hero, NavBar } from './components';
 import { ScrollTrigger, SplitText } from 'gsap/all';
 import { CSSPlugin } from 'gsap/CSSPlugin';
 import { gsap } from 'gsap';
@@ -10,7 +10,7 @@ function App() {
       <main className="">
         <NavBar />
         <Hero />
-        <div className={'h-dvh bg-black'}></div>
+        <Cocktails />
       </main>
     </>
   );
