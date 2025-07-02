@@ -9,8 +9,7 @@
     "lint": "eslint .",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "preview": "vite preview",
-    "commit": "cz",
-    "prepare": "husky install"
+    "commit": "cz"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
